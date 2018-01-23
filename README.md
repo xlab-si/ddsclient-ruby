@@ -64,4 +64,4 @@ push git commits and tags, and push the `.gem` file to
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/[USERNAME]/dds_client.
+https://github.com/xlab-si/dds_client.

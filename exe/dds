@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "dds_client/cli"
+require "dds_client/exceptions"
+
+begin
+  DdsClient::CLI.start(ARGV)
+rescue DdsClient::Error => e
+  warn(e.to_s)
+  exit(1)
+end
